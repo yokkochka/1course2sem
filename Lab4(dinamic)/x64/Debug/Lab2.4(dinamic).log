@@ -1,0 +1,7 @@
+﻿  Other_functions.cpp
+C:\Users\User\Desktop\C++\Lab2.4(dinamic)\Other_functions.cpp(50,22): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\User\Desktop\C++\Lab2.4(dinamic)\Other_functions.cpp(58,18): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\User\Desktop\C++\Lab2.4(dinamic)\Other_functions.cpp(64,30): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\User\Desktop\C++\Lab2.4(dinamic)\Other_functions.cpp(70,35): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\User\Desktop\C++\Lab2.4(dinamic)\Other_functions.cpp(71,43): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+  Lab2.4(dinamic).vcxproj -> C:\Users\User\Desktop\C++\lab2.4\x64\Debug\Lab2.4(dinamic).exe
