@@ -1,0 +1,4 @@
+﻿  Lab2.2.cpp
+C:\Users\User\Desktop\C++\Lab2.2\Lab2.2.cpp(76,22): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\User\Desktop\C++\Lab2.2\Lab2.2.cpp(81,31): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Lab2.2.vcxproj -> C:\Users\User\Desktop\C++\Lab2.2\x64\Debug\Lab2.2.exe
