@@ -1,4 +1,0 @@
-﻿  Lab2.2(dop).cpp
-C:\Users\User\Desktop\C++\Lab2.2(dop)\Lab2.2(dop).cpp(85,22): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
-C:\Users\User\Desktop\C++\Lab2.2(dop)\Lab2.2(dop).cpp(90,31): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-  Lab2.2(dop).vcxproj -> C:\Users\User\Desktop\C++\Lab2.2\x64\Debug\Lab2.2(dop).exe
