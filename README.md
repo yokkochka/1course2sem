@@ -78,6 +78,7 @@
     make lab1
     make lab2_d
     make lab2_s
+    make lab3
     make lab4_d
     make lab4_s
     make lab5
