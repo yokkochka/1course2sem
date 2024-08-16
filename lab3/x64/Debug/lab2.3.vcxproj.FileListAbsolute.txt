@@ -1,2 +1,0 @@
-C:\Users\User\Desktop\C++\lab2.3\x64\Debug\lab2.3.exe
-C:\Users\User\Desktop\C++\2course\lab3\x64\Debug\lab2.3.exe

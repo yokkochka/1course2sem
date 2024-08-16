@@ -8,7 +8,6 @@ void vstavkaPstr(char* str, char* pstr);
 int dlina(char* str);
 char* zamenaNumber(char* str, char* pstr, int& kol);
 
-
 int dlina(char* str) {
     int dlina = 0;
     while (*str) {
@@ -31,40 +30,36 @@ char* poiskNumberPstr(char* str, int& len) {
     while ((!isNumber(*start)) and (*start != '\0')) start++;
 
     char* temp = start;
-    while (isNumber(*temp)) { len++; temp++; }
+    while (isNumber(*temp)) {
+        len++;
+        temp++;
+    }
 
-    if (len == 0)return 0;
+    if (len == 0) return 0;
     return start;
 }
 
-
 void delNsymbl(char* str, int n) {
-    while (*str = *(str + n)) str++;
+    while (*str == *(str + n)) str++;
 }
 
 void vstavkaPstr(char* str, char* pstr) {
     int len = dlina(str);
     int lenPstr = dlina(pstr);
     char* vvv = str;
-    for (str = str + len; str >= vvv; str--)
-    {
+    for (str = str + len; str >= vvv; str--) {
         *(str + lenPstr) = *str;
     }
-    for (int i = 0; *pstr; pstr++, vvv++)
-    {
-        *vvv =*pstr;
+    for (; *pstr; pstr++, vvv++) {
+        *vvv = *pstr;
     }
-
-    
 }
 
-char* zamenaNumber(char* str, char* pstr, int& kol)
-{
+char* zamenaNumber(char* str, char* pstr, int& kol) {
     kol = 0;
     int len = 0;
     char* a = poiskNumberPstr(str, len);
-    while (a != 0)
-    {
+    while (a != 0) {
         kol++;
         delNsymbl(a, len);
         vstavkaPstr(a, pstr);
