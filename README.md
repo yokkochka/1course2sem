@@ -50,12 +50,12 @@
 
 1. Склонируйте репозиторий:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/yokkochka/1course2sem.git
     ```
 
 2. Перейдите в директорию с проектом:
     ```bash
-    cd your-repository
+    cd 1course2sem
     ```
 
 3. Скомпилируйте программу. Для этого используйте ваш компилятор C++. Например, с помощью `g++`:
