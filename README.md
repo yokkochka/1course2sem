@@ -48,14 +48,14 @@
 
 ## Как использовать
 
-1. Склонируйте репозиторий:
+1. **Склонируйте репозиторий**:
     ```bash
-    git clone https://github.com/yokkochka/1course2sem.git
+    git clone https://github.com/account_username/repository_name.git
     ```
 
-2. Перейдите в директорию с проектом:
+2. **Перейдите в директорию с проектом**:
     ```bash
-    cd 1course2sem
+    cd repository_name
     ```
 
 3. Скомпилируйте программу. Для этого используйте ваш компилятор C++. Например, с помощью `g++`:
